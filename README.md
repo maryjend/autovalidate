@@ -1,4 +1,6 @@
-# autovalidate
+#autovalidate
+
+![compile](https://github.com/maryjend/autovalidate/actions/workflows/compile.yml/badge.svg)
 
 I like that app too!
 
