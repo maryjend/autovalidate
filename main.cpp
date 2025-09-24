@@ -24,9 +24,12 @@ int main(){
   do{
     cout << "What's next?\n";
     getline(cin,input);
+    if (input == "nothing") { 
+      break;
+    } 
     pick = rand() % 4;
     cout << VALIDATION[pick] << "!\n";
-  }while( input != "nothing" );
+  }while(true);
 
   return 0;
 }
